@@ -21,7 +21,6 @@ const Body = () => {
 
     return(
         <div className="Body">
-            <button >Top Rated Restraunt</button>
             {listCardData?.map((restaurant) => (
                 <RestaurantCard {...restaurant?.info} />
             ))}
