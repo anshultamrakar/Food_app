@@ -1,4 +1,3 @@
-import { useState , useEffect } from "react";
 import { IMG_CDN_URL } from "../utils/Constants";
 
 const RestaurantCard = ({name , cloudinaryImageId , cuisines , areaName}) => {
