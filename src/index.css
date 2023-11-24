@@ -22,7 +22,8 @@ body {
 
 
 .header_logo{
-  margin : 10px
+  margin : 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav_items{
@@ -32,7 +33,18 @@ body {
   justify-content: center;
   color: #fff;
   font-family: 'Roboto', sans-serif;
+}
 
+.nav_items a {
+  float: left; 
+  color: white; 
+  text-align: center; 
+  padding: 14px 16px; 
+  text-decoration: none; 
+}
+
+.nav_listItems{
+  list-style-type: none;
 }
 
 .Body{
@@ -45,7 +57,7 @@ body {
 }
 
 .restraunt_card{
-  border: 2px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 15px;
   display: flex;
   flex-direction: column;
@@ -59,5 +71,22 @@ body {
   color: #fff;
   padding: 20px;
 }
+
+.Shimmer{ 
+    width: 450px;
+    height: 400px;
+    background: #ecebeb;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+  }
+
+  .About{
+    min-height: 100vh;
+  }
+
+  .Contact{
+    min-height: 100vh;
+  }
 
 

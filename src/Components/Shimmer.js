@@ -2,7 +2,16 @@ import React from "react"
 
 const Shimmer = () => {
     return(
-        <div className="Shimmer">
+        <div className="Body">
+            <div className="Shimmer"></div>
+            <div className="Shimmer"></div>
+            <div className="Shimmer"></div>
+            <div className="Shimmer"></div>
+            <div className="Shimmer"></div>
+            <div className="Shimmer"></div>
+            <div className="Shimmer"></div>
+            <div className="Shimmer"></div>
+            <div className="Shimmer"></div>
         </div>
     )
 }
