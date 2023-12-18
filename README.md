@@ -68,3 +68,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- Notes -->
+ <!-- Mounting phase
+
+ parent constructor will call 
+ parent render will call 
+ Child 1 constructor will call
+ Child1 render will call
+ Child 2 constructor will call 
+ Child 2 render will call 
+ Child 1 component did mount will call 
+ Child 2 component did mount will call 
+ Parent component did mount will call
+
+
+ Updating  
+  ComponentDidUpdate(){
+  }
+
+
+ Unmounting 
+
+ ComponentWillUnmount(){}
+ -->

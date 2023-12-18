@@ -63,6 +63,24 @@ body {
   flex-direction: column;
   gap : 15px;
 }
+.restraunt_menu{
+  min-height: 100vh;
+  margin : 70px;
+}
+
+.search{
+ display: flex;
+ margin: 50px;
+ justify-content: center;
+ gap : 20px;
+}
+
+
+.menudata_items{
+ display: flex;
+ flex-direction: column;
+ gap: 7px;
+}
 
 .Footer{
   display: grid;
